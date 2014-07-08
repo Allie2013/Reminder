@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+@class ACUReminder;
+
 @interface ACUReminderStore : NSObject
+
+@property (nonatomic, readonly, copy) NSArray *allItems;
+
++ (instancetype)sharedStore;
+- (ACUReminder *)createReminder;
+- (void)removeReminder:(BNRReminder *)reminder;
+- (BOOL)saveChanges;
 
 @end
