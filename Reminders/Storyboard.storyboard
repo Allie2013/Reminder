@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gKk-yf-bxf">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
     </dependencies>
     <scenes>
@@ -35,9 +34,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="4u3-hg-jBn" kind="showDetail" id="WAR-kj-2kN"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="7ib-bY-94f" detailTextLabel="SCj-Oq-Tqs" style="IBUITableViewCellStyleSubtitle" id="o7a-v9-F29">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -107,29 +103,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ITl-8r-tNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="809" y="471"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="zvq-pw-hDq">
-            <objects>
-                <viewController id="4u3-hg-jBn" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="iNG-LR-sgb"/>
-                        <viewControllerLayoutGuide type="bottom" id="Q2b-Dp-BBg"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="4qE-Nq-jEn">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4">
-                        <size key="portraitSize" width="320" height="568"/>
-                        <size key="landscapeSize" width="568" height="320"/>
-                    </simulatedScreenMetrics>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qR7-mm-FYs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1427" y="214"/>
         </scene>
         <!--NewReminder-->
         <scene sceneID="GMY-Z4-S85">
@@ -206,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pD7-zn-KfG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1427" y="845"/>
+            <point key="canvasLocation" x="1467" y="471"/>
         </scene>
         <!--Reminders-->
         <scene sceneID="aW3-Dm-UA6">
