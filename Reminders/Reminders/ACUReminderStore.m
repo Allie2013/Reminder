@@ -47,7 +47,7 @@
 
 - (instancetype)init
 {
-    [NSException raise:@"Singleton" format:@"Use + [BNRItemStore sharedStore]"];
+    [NSException raise:@"Singleton" format:@"Use + [ACUReminderStore sharedStore]"];
     return nil;
 }
 
@@ -67,7 +67,7 @@
 
 - (ACUReminder *)createItem
 {
-    ACUReminder *item = [ACUReminder randomItem];
+    ACUReminder *item = [ACUReminder init];
     [self.privateItems addObject:item];
     return item;
 }

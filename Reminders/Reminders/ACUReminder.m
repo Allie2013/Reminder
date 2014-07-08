@@ -18,17 +18,6 @@
 @dynamic reminderImage;
 @dynamic reminderTypeRelationship;
 
-//+ (instancetype)randomItem
-//{
-//    NSArray *randomAdjectiveList = @[@"Fluffy", @"Rusty", @"Shiny"];
-//    NSArray *randomNounList = @[@"Bear", @"Spork", @"Mac"];
-//    NSInteger adjectiveIndex = arc4random() % [randomAdjectiveList count];
-//    NSInteger nounIndex = arc4random() % [randomNounList count];
-//    NSString *randomName = [NSString stringWithFormat:@"%@%@", [randomAdjectiveList objectAtIndex:adjectiveIndex], [randomNounList objectAtIndex:nounIndex]];
-//    ACUReminder *newItem = [[self alloc] initWithItemName:randomName];
-//    return newItem;
-//}
-
 - (instancetype)initWithReminderName:(NSString *)name reminderDescription:(NSString *)desc
 {
     self = [super init];
