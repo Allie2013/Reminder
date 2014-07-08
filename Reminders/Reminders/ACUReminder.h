@@ -19,8 +19,8 @@
 @property (nonatomic, retain) UIImage *reminderImage;
 @property (nonatomic, retain) ACUReminderType *reminderTypeRelationship;
 
-+ (instancetype)randomItem;
+//+ (instancetype)randomItem;
 
-- (instancetype)initWithItemName:(NSString *)name;
+- (instancetype)initWithReminderName:(NSString *)name;
 
 @end

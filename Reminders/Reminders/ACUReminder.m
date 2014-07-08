@@ -18,23 +18,18 @@
 @dynamic reminderImage;
 @dynamic reminderTypeRelationship;
 
-+ (instancetype)randomItem
-{
-    NSArray *randomAdjectiveList = @[@"Fluffy", @"Rusty", @"Shiny"];
-    NSArray *randomNounList = @[@"Bear", @"Spork", @"Mac"];
-    NSInteger adjectiveIndex = arc4random() % [randomAdjectiveList count];
-    NSInteger nounIndex = arc4random() % [randomNounList count];
-    NSString *randomName = [NSString stringWithFormat:@"%@%@", [randomAdjectiveList objectAtIndex:adjectiveIndex], [randomNounList objectAtIndex:nounIndex]];
-    ACUReminder *newItem = [[self alloc] initWithItemName:randomName];
-    return newItem;
-}
+//+ (instancetype)randomItem
+//{
+//    NSArray *randomAdjectiveList = @[@"Fluffy", @"Rusty", @"Shiny"];
+//    NSArray *randomNounList = @[@"Bear", @"Spork", @"Mac"];
+//    NSInteger adjectiveIndex = arc4random() % [randomAdjectiveList count];
+//    NSInteger nounIndex = arc4random() % [randomNounList count];
+//    NSString *randomName = [NSString stringWithFormat:@"%@%@", [randomAdjectiveList objectAtIndex:adjectiveIndex], [randomNounList objectAtIndex:nounIndex]];
+//    ACUReminder *newItem = [[self alloc] initWithItemName:randomName];
+//    return newItem;
+//}
 
-- (void)dealloc
-{
-    NSLog(@"Destroyed: %@", self);
-}
-
-- (instancetype)initWithItemName:(NSString *)name valueInDollars:(int)value serialNumber:(NSString *)sNumber
+- (instancetype)initWithReminderName:(NSString *)name reminderDescription:(NSString *)desc
 {
     self = [super init];
     if (self) {
@@ -42,14 +37,14 @@
     return self;
 }
 
-- (instancetype)initWithItemName:(NSString *)name
+- (instancetype)initWithReminderName:(NSString *)name
 {
-    return [self initWithItemName:name valueInDollars:0 serialNumber:@""];
+    return [self initWithReminderName:name reminderDescription: [self description]];
 }
 
 - (instancetype)init
 {
-    return [self initWithItemName:@"Item"];
+    return [self initWithReminderName:@"New Reminder"];
 }
 
 - (NSString *)description
