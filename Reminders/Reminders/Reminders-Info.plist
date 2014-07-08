@@ -24,6 +24,11 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+<<<<<<< HEAD
+	<key>UIMainStoryboardFile</key>
+	<string>Storyboard</string>
+=======
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+		605F612E196C552100C24774 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605F612D196C552100C24774 /* Storyboard.storyboard */; };
+		605F6137196C6E9200C24774 /* ACUNewReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605F6136196C6E9200C24774 /* ACUNewReminderViewController.m */; };
+=======
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 		6CA7D41B196C4F6E009DE89B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA7D41A196C4F6E009DE89B /* Foundation.framework */; };
 		6CA7D41D196C4F6E009DE89B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA7D41C196C4F6E009DE89B /* CoreGraphics.framework */; };
 		6CA7D41F196C4F6E009DE89B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA7D41E196C4F6E009DE89B /* UIKit.framework */; };
@@ -22,10 +27,13 @@
 		6CA7D43C196C4F6E009DE89B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA7D420196C4F6E009DE89B /* CoreData.framework */; };
 		6CA7D444196C4F6E009DE89B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CA7D442196C4F6E009DE89B /* InfoPlist.strings */; };
 		6CA7D446196C4F6E009DE89B /* RemindersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D445196C4F6E009DE89B /* RemindersTests.m */; };
+<<<<<<< HEAD
+=======
 		6CA7D454196C5535009DE89B /* ACUReminderType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D453196C5535009DE89B /* ACUReminderType.m */; };
 		6CA7D457196C5899009DE89B /* ACUReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D456196C5899009DE89B /* ACUReminder.m */; };
 		6CA7D45A196C5AF1009DE89B /* ACUReminderStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D459196C5AF1009DE89B /* ACUReminderStore.m */; };
 		96EBDE22196C605100DE0033 /* ACUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBDE21196C605100DE0033 /* ACUViewController.m */; };
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+		605F612D196C552100C24774 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		605F6135196C6E9200C24774 /* ACUNewReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUNewReminderViewController.h; sourceTree = "<group>"; };
+		605F6136196C6E9200C24774 /* ACUNewReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUNewReminderViewController.m; sourceTree = "<group>"; };
+=======
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 		6CA7D417196C4F6E009DE89B /* Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA7D41A196C4F6E009DE89B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CA7D41C196C4F6E009DE89B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,6 +71,8 @@
 		6CA7D441196C4F6E009DE89B /* RemindersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemindersTests-Info.plist"; sourceTree = "<group>"; };
 		6CA7D443196C4F6E009DE89B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CA7D445196C4F6E009DE89B /* RemindersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindersTests.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
 		6CA7D452196C5535009DE89B /* ACUReminderType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUReminderType.h; sourceTree = "<group>"; };
 		6CA7D453196C5535009DE89B /* ACUReminderType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUReminderType.m; sourceTree = "<group>"; };
 		6CA7D455196C5899009DE89B /* ACUReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUReminder.h; sourceTree = "<group>"; };
@@ -65,6 +81,7 @@
 		6CA7D459196C5AF1009DE89B /* ACUReminderStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUReminderStore.m; sourceTree = "<group>"; };
 		96EBDE20196C605100DE0033 /* ACUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUViewController.h; sourceTree = "<group>"; };
 		96EBDE21196C605100DE0033 /* ACUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUViewController.m; sourceTree = "<group>"; };
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +113,12 @@
 		6CA7D40E196C4F6E009DE89B = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				605F6135196C6E9200C24774 /* ACUNewReminderViewController.h */,
+				605F6136196C6E9200C24774 /* ACUNewReminderViewController.m */,
+				605F612D196C552100C24774 /* Storyboard.storyboard */,
+=======
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 				6CA7D422196C4F6E009DE89B /* Reminders */,
 				6CA7D43F196C4F6E009DE89B /* RemindersTests */,
 				6CA7D419196C4F6E009DE89B /* Frameworks */,
@@ -130,6 +153,10 @@
 				6CA7D42B196C4F6E009DE89B /* ACUAppDelegate.h */,
 				6CA7D42C196C4F6E009DE89B /* ACUAppDelegate.m */,
 				6CA7D431196C4F6E009DE89B /* Images.xcassets */,
+<<<<<<< HEAD
+				6CA7D42E196C4F6E009DE89B /* Reminders.xcdatamodeld */,
+				6CA7D423196C4F6E009DE89B /* Supporting Files */,
+=======
 				6CA7D455196C5899009DE89B /* ACUReminder.h */,
 				6CA7D456196C5899009DE89B /* ACUReminder.m */,
 				6CA7D458196C5AF1009DE89B /* ACUReminderStore.h */,
@@ -140,6 +167,7 @@
 				6CA7D423196C4F6E009DE89B /* Supporting Files */,
 				96EBDE20196C605100DE0033 /* ACUViewController.h */,
 				96EBDE21196C605100DE0033 /* ACUViewController.m */,
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 			);
 			path = Reminders;
 			sourceTree = "<group>";
@@ -251,6 +279,10 @@
 			files = (
 				6CA7D427196C4F6E009DE89B /* InfoPlist.strings in Resources */,
 				6CA7D432196C4F6E009DE89B /* Images.xcassets in Resources */,
+<<<<<<< HEAD
+				605F612E196C552100C24774 /* Storyboard.storyboard in Resources */,
+=======
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,12 +302,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CA7D42D196C4F6E009DE89B /* ACUAppDelegate.m in Sources */,
+<<<<<<< HEAD
+				605F6137196C6E9200C24774 /* ACUNewReminderViewController.m in Sources */,
+				6CA7D430196C4F6E009DE89B /* Reminders.xcdatamodeld in Sources */,
+				6CA7D429196C4F6E009DE89B /* main.m in Sources */,
+=======
 				6CA7D457196C5899009DE89B /* ACUReminder.m in Sources */,
 				6CA7D430196C4F6E009DE89B /* Reminders.xcdatamodeld in Sources */,
 				6CA7D429196C4F6E009DE89B /* main.m in Sources */,
 				6CA7D454196C5535009DE89B /* ACUReminderType.m in Sources */,
 				96EBDE22196C605100DE0033 /* ACUViewController.m in Sources */,
 				6CA7D45A196C5AF1009DE89B /* ACUReminderStore.m in Sources */,
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +433,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reminders/Reminders-Prefix.pch";
 				INFOPLIST_FILE = "Reminders/Reminders-Info.plist";
+<<<<<<< HEAD
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+=======
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +450,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reminders/Reminders-Prefix.pch";
 				INFOPLIST_FILE = "Reminders/Reminders-Info.plist";
+<<<<<<< HEAD
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+=======
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

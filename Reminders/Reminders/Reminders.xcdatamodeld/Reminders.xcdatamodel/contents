@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+<<<<<<< HEAD
+    <entity name="ACUReminder" syncable="YES">
+=======
     <entity name="ACUReminder" representedClassName="ACUReminder" syncable="YES">
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
         <attribute name="reminderDate" optional="YES" attributeType="Transformable" syncable="YES"/>
         <attribute name="reminderDescription" optional="YES" attributeType="Transformable" syncable="YES"/>
         <attribute name="reminderImage" optional="YES" attributeType="Transformable" syncable="YES"/>
         <attribute name="reminderName" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="reminderTypeRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ACUReminderType" inverseName="reminderRelationship" inverseEntity="ACUReminderType" syncable="YES"/>
     </entity>
+<<<<<<< HEAD
+    <entity name="ACUReminderType" syncable="YES">
+=======
     <entity name="ACUReminderType" representedClassName="ACUReminderType" syncable="YES">
+>>>>>>> 9c4b1bfdfe998b5ef1a0a53a6a41ac104386c2bb
         <attribute name="reminderType" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="reminderRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ACUReminder" inverseName="reminderTypeRelationship" inverseEntity="ACUReminder" syncable="YES"/>
     </entity>
