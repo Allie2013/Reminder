@@ -22,6 +22,9 @@
 		6CA7D43C196C4F6E009DE89B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA7D420196C4F6E009DE89B /* CoreData.framework */; };
 		6CA7D444196C4F6E009DE89B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CA7D442196C4F6E009DE89B /* InfoPlist.strings */; };
 		6CA7D446196C4F6E009DE89B /* RemindersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D445196C4F6E009DE89B /* RemindersTests.m */; };
+		6CA7D454196C5535009DE89B /* ACUReminderType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D453196C5535009DE89B /* ACUReminderType.m */; };
+		6CA7D457196C5899009DE89B /* ACUReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D456196C5899009DE89B /* ACUReminder.m */; };
+		6CA7D45A196C5AF1009DE89B /* ACUReminderStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D459196C5AF1009DE89B /* ACUReminderStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		6CA7D441196C4F6E009DE89B /* RemindersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemindersTests-Info.plist"; sourceTree = "<group>"; };
 		6CA7D443196C4F6E009DE89B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CA7D445196C4F6E009DE89B /* RemindersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindersTests.m; sourceTree = "<group>"; };
+		6CA7D452196C5535009DE89B /* ACUReminderType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUReminderType.h; sourceTree = "<group>"; };
+		6CA7D453196C5535009DE89B /* ACUReminderType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUReminderType.m; sourceTree = "<group>"; };
+		6CA7D455196C5899009DE89B /* ACUReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUReminder.h; sourceTree = "<group>"; };
+		6CA7D456196C5899009DE89B /* ACUReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUReminder.m; sourceTree = "<group>"; };
+		6CA7D458196C5AF1009DE89B /* ACUReminderStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUReminderStore.h; sourceTree = "<group>"; };
+		6CA7D459196C5AF1009DE89B /* ACUReminderStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUReminderStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +127,13 @@
 				6CA7D42B196C4F6E009DE89B /* ACUAppDelegate.h */,
 				6CA7D42C196C4F6E009DE89B /* ACUAppDelegate.m */,
 				6CA7D431196C4F6E009DE89B /* Images.xcassets */,
+				6CA7D455196C5899009DE89B /* ACUReminder.h */,
+				6CA7D456196C5899009DE89B /* ACUReminder.m */,
+				6CA7D458196C5AF1009DE89B /* ACUReminderStore.h */,
+				6CA7D459196C5AF1009DE89B /* ACUReminderStore.m */,
 				6CA7D42E196C4F6E009DE89B /* Reminders.xcdatamodeld */,
+				6CA7D452196C5535009DE89B /* ACUReminderType.h */,
+				6CA7D453196C5535009DE89B /* ACUReminderType.m */,
 				6CA7D423196C4F6E009DE89B /* Supporting Files */,
 			);
 			path = Reminders;
@@ -250,8 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CA7D42D196C4F6E009DE89B /* ACUAppDelegate.m in Sources */,
+				6CA7D457196C5899009DE89B /* ACUReminder.m in Sources */,
 				6CA7D430196C4F6E009DE89B /* Reminders.xcdatamodeld in Sources */,
 				6CA7D429196C4F6E009DE89B /* main.m in Sources */,
+				6CA7D454196C5535009DE89B /* ACUReminderType.m in Sources */,
+				6CA7D45A196C5AF1009DE89B /* ACUReminderStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
