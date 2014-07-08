@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>55A1848E-5818-450C-ABA4-D4917B0EFAD7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Reminders</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>47C20D29-6129-4366-A871-F09F73C59CFA</key>
+		<string>https://github.com/Allie2013/Reminder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Reminders/Reminders.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>47C20D29-6129-4366-A871-F09F73C59CFA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Allie2013/Reminder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>47C20D29-6129-4366-A871-F09F73C59CFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>47C20D29-6129-4366-A871-F09F73C59CFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Reminder</string>
+		</dict>
+	</array>
+</dict>
+</plist>

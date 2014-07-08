@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ACUReminder" syncable="YES">
+        <attribute name="reminderDate" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="reminderDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reminderImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="reminderName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="reminderTypeRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ACUReminderType" inverseName="reminderRelationship" inverseEntity="ACUReminderType" syncable="YES"/>
+    </entity>
+    <entity name="ACUReminderType" syncable="YES">
+        <attribute name="reminderType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="reminderRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ACUReminder" inverseName="reminderTypeRelationship" inverseEntity="ACUReminder" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ACUReminder" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="ACUReminderType" positionX="-45" positionY="36" width="128" height="73"/>
+    </elements>
+</model>
