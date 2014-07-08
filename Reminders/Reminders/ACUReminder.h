@@ -13,13 +13,11 @@
 
 @interface ACUReminder : NSManagedObject
 
-@property (nonatomic, retain) NSString *reminderDescription;
+@property (nonatomic, retain) UITextField *reminderDescription;
 @property (nonatomic, retain) NSString *reminderName;
 @property (nonatomic, retain) NSDate *reminderDate;
 @property (nonatomic, retain) UIImage *reminderImage;
 @property (nonatomic, retain) ACUReminderType *reminderTypeRelationship;
-
-//+ (instancetype)randomItem;
 
 - (instancetype)initWithReminderName:(NSString *)name;
 

@@ -18,7 +18,7 @@
 @dynamic reminderImage;
 @dynamic reminderTypeRelationship;
 
-- (instancetype)initWithReminderName:(NSString *)name reminderDescription:(NSString *)desc
+- (instancetype)initWithReminderName:(NSString *)name reminderDescription:(UITextField *)desc
 {
     self = [super init];
     if (self) {
@@ -28,7 +28,7 @@
 
 - (instancetype)initWithReminderName:(NSString *)name
 {
-    return [self initWithReminderName:name reminderDescription: [self description]];
+    return [self initWithReminderName:name reminderDescription: [[UITextField init] alloc]];
 }
 
 - (instancetype)init
@@ -36,10 +36,5 @@
     return [self initWithReminderName:@"New Reminder"];
 }
 
-- (NSString *)description
-{
-    NSString *descriptionString = [[NSString alloc] initWithFormat:@"%@", self.reminderName];
-    return descriptionString;
-}
 
 @end
