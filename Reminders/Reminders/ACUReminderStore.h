@@ -15,8 +15,11 @@
 @property (nonatomic, readonly, copy) NSArray *allItems;
 
 + (instancetype)sharedStore;
-- (ACUReminder *)createReminder;
-- (void)removeReminder:(BNRReminder *)reminder;
-- (BOOL)saveChanges;
+- (ACUReminder *)createItem;
+- (void)removeItem:(ACUReminder *)reminder;
+- (void)moveItemAtIndex:(NSUInteger)fromIndex toIndex:(NSUInteger)toIndex;
+//- (BOOL)saveChanges;
 
 @end
+
+

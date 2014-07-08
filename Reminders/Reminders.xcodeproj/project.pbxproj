@@ -25,6 +25,7 @@
 		6CA7D454196C5535009DE89B /* ACUReminderType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D453196C5535009DE89B /* ACUReminderType.m */; };
 		6CA7D457196C5899009DE89B /* ACUReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D456196C5899009DE89B /* ACUReminder.m */; };
 		6CA7D45A196C5AF1009DE89B /* ACUReminderStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7D459196C5AF1009DE89B /* ACUReminderStore.m */; };
+		96EBDE22196C605100DE0033 /* ACUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBDE21196C605100DE0033 /* ACUViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		6CA7D456196C5899009DE89B /* ACUReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUReminder.m; sourceTree = "<group>"; };
 		6CA7D458196C5AF1009DE89B /* ACUReminderStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUReminderStore.h; sourceTree = "<group>"; };
 		6CA7D459196C5AF1009DE89B /* ACUReminderStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUReminderStore.m; sourceTree = "<group>"; };
+		96EBDE20196C605100DE0033 /* ACUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACUViewController.h; sourceTree = "<group>"; };
+		96EBDE21196C605100DE0033 /* ACUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACUViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				6CA7D452196C5535009DE89B /* ACUReminderType.h */,
 				6CA7D453196C5535009DE89B /* ACUReminderType.m */,
 				6CA7D423196C4F6E009DE89B /* Supporting Files */,
+				96EBDE20196C605100DE0033 /* ACUViewController.h */,
+				96EBDE21196C605100DE0033 /* ACUViewController.m */,
 			);
 			path = Reminders;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 				6CA7D430196C4F6E009DE89B /* Reminders.xcdatamodeld in Sources */,
 				6CA7D429196C4F6E009DE89B /* main.m in Sources */,
 				6CA7D454196C5535009DE89B /* ACUReminderType.m in Sources */,
+				96EBDE22196C605100DE0033 /* ACUViewController.m in Sources */,
 				6CA7D45A196C5AF1009DE89B /* ACUReminderStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +472,7 @@
 				6CA7D44B196C4F6E009DE89B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CA7D44C196C4F6E009DE89B /* Build configuration list for PBXNativeTarget "RemindersTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +481,7 @@
 				6CA7D44E196C4F6E009DE89B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
